@@ -53,3 +53,21 @@ body {
 .battle-button:hover {
     background-color: #e64a19;
 }
+/* Style the Battle button */
+.battle-button {
+    position: fixed;         /* Fixed position on the page */
+    bottom: 20px;            /* 20px from the bottom */
+    right: 20px;             /* 20px from the right */
+    padding: 15px 30px;      /* Padding to make the button large */
+    font-size: 18px;         /* Font size */
+    background-color: #ff5722;  /* Button color (bright orange) */
+    color: white;            /* White text */
+    border: none;            /* No border */
+    border-radius: 8px;      /* Rounded corners */
+    cursor: pointer;        /* Pointer cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
+}
+
+.battle-button:hover {
+    background-color: #e64a19;  /* Darker color on hover */
+}
