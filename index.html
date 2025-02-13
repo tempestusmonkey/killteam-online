@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Killteam Battle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Killteam Battle</h1>
+    </div>
+    
+    <!-- Killteam List -->
+    <div class="killteam-list">
+        <h2>My Killteams</h2>
+        <ul id="killteam-list">
+            <li>Team A</li>
+            <li>Team B</li>
+            <li>Team C</li>
+        </ul>
+    </div>
 
+    <!-- Battle Button -->
+    <button id="battle-button" class="battle-btn">Battle</button>
+
+    <!-- Game Mode Selection (hidden initially) -->
+    <div id="game-mode-selector" class="game-mode-selector" style="display:none;">
+        <h2>Select Game Mode</h2>
+        <button id="standard-mode">Standard</button>
+        <button id="into-the-dark-mode">Into the Dark</button>
+    </div>
+
+    <!-- Game Map (hidden initially) -->
+    <div id="game-map" class="game-map" style="display:none;">
+        <h2>Game Map</h2>
+        <div id="map-container">
+            <!-- Basic 5x5 grid map -->
+            <div class="grid" data-position="0"></div>
+            <div class="grid" data-position="1"></div>
+            <div class="grid" data-position="2"></div>
+            <div class="grid" data-position="3"></div>
+            <div class="grid" data-position="4"></div>
+            <div class="grid" data-position="5"></div>
+            <div class="grid" data-position="6"></div>
+            <div class="grid" data-position="7"></div>
+            <div class="grid" data-position="8"></div>
+            <div class="grid" data-position="9"></div>
+            <div class="grid" data-position="10"></div>
+            <div class="grid" data-position="11"></div>
+            <div class="grid" data-position="12"></div>
+            <div class="grid" data-position="13"></div>
+            <div class="grid" data-position="14"></div>
+            <div class="grid" data-position="15"></div>
+            <div class="grid" data-position="16"></div>
+            <div class="grid" data-position="17"></div>
+            <div class="grid" data-position="18"></div>
+            <div class="grid" data-position="19"></div>
+            <div class="grid" data-position="20"></div>
+            <div class="grid" data-position="21"></div>
+            <div class="grid" data-position="22"></div>
+            <div class="grid" data-position="23"></div>
+            <div class="grid" data-position="24"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
