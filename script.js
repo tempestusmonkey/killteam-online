@@ -1,5 +1,6 @@
 document.getElementById('battle-button').addEventListener('click', function() {
-    document.getElementById('game-mode-selector').style.display = 'block';  // Show game mode selector
+    document.getElementById('main-page').style.display = 'none';  // Hide the main page
+    document.getElementById('battle-page').style.display = 'flex';  // Show the battle page
 });
 
 document.getElementById('standard-mode').addEventListener('click', function() {
@@ -12,7 +13,6 @@ document.getElementById('into-the-dark-mode').addEventListener('click', function
 
 function startGame(mode) {
     console.log('Starting game in mode: ' + mode);
-    document.getElementById('game-mode-selector').style.display = 'none';  // Hide game mode selector
     document.getElementById('game-map').style.display = 'block';  // Show the game map
     // You can add logic here to initialize the map or teams based on the selected mode
 }
